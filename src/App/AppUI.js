@@ -22,8 +22,7 @@ export default function AppUI() {
           } = React.useContext(TodoContext)
   return (
     <>
-      <TodoCounter />
-      <TodoSearch />
+      
       <TodoList>
         {loading && <TodosLoading/>}
         {error && <TodosError/>}
